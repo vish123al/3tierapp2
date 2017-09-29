@@ -4,7 +4,6 @@ RUN apt-get update && \
     apt-get install -y php5-mysql && \
     apt-get clean
 
-COPY myapp /var/www/html/
 COPY css /var/www/html/
 COPY images /var/www/html/
 COPY js /var/www/html/
