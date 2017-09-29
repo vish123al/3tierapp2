@@ -4,7 +4,7 @@ $db_username = 'root';
 $db_password = 'root';
 $db_name = 'myapp';
 $db_host = '10.0.1.82:3306';
-$db = mysqli_connect('10.0.1.81:3306', 'root', 'root', 'myapp');
+$db = mysqli_connect('10.0.1.81', 'root', 'root', 'myapp');
 //$mysqli = new mysqli('10.0.1.87','root','password','myapp',9880);
 //$mysqli = new mysqli("mysql.marathon.mesos","root","root","myapp");
 if ($mysqli->connect_errno) {
