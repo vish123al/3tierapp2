@@ -30,4 +30,4 @@ COPY robots.txt /var/www/html/
 COPY success.php /var/www/html/
 COPY update.php /var/www/html/
 COPY update-cart.php /var/www/html/
-verify.php /var/www/html/
+COPY verify.php /var/www/html/
